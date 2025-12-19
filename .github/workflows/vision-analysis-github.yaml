@@ -1,0 +1,114 @@
+
+name: vision-analysis-example
+on: push
+env:
+  IMAGE_FILENAME: github_newly_built_image.bin
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create firmware
+        run: cp full_filesystem.bin ${{ env.IMAGE_FILENAME }}
+
+      - name: Upload built image 
+        uses: actions/upload-artifact@v4
+        with:
+          name: image_to_analyze
+          path: ${{ env.IMAGE_FILENAME }}
+  
+  vision-analysis:
+    name: Run JFrog's Vision analysis
+    runs-on: ubuntu-latest
+    needs: build
+    
+
+  
+    container:
+      # Set VISION_CLI_REGISTRY, VISION_ANALYSIS_TAG, VISION_BASE_URL and VISION_TOKEN in GitHub repository variables 
+      image: ${{ vars.VISION_CLI_REGISTRY }}/vision_analysis:${{ vars.VISION_ANALYSIS_TAG }}
+     
+    timeout-minutes: 60
+    
+    steps:
+      - name: Download built image 
+        uses: actions/download-artifact@v4
+        with:
+          name: image_to_analyze
+
+      - name: Run Vision analysis
+        shell: bash
+        run: |
+         
+          echo "Start------------------------------"
+          
+          # These parameters for this run are for this example only. Set your own values for your own run.
+          export VISION_ARTIFACT_ID=2901
+          export VISION_MAX_THREAT_LEVEL="Very High"
+          export VISION_MAX_HIGHLIGHTED_ISSUES=13
+          export VISION_MAX_HIGHLIGHTED_CVES=11
+          export VISION_MAX_HIGHLIGHTED_EXPOSURES=2
+          export VISION_MAX_MALICIOUS_FILES=10
+
+          vdoo_analysis --version
+
+          # Vision analysis: Upload, Analyze and wait for completion. Get final status and results.
+          echo "Upload & Analyze------------------"
+          vdoo_analysis analyze --token ${{ secrets.VISION_TOKEN }} --base_url ${{ vars.VISION_BASE_URL }} \
+            --artifact-id $VISION_ARTIFACT_ID --image-path ${{ env.IMAGE_FILENAME }} \
+            -n github_ci_version --verbose --output-uuid new_image_uuid.txt  
+                
+          NEW_UUID=$(cat ./new_image_uuid.txt)
+          echo "New image UUID:"
+          echo ${NEW_UUID}
+          vdoo_analysis images get_status --token ${{ secrets.VISION_TOKEN }} --image-uuid ${NEW_UUID} --base_url ${{vars.VISION_BASE_URL}}
+
+          # Get the analysis results
+          vdoo_analysis images get_results --token ${{ secrets.VISION_TOKEN }} --base_url ${{ vars.VISION_BASE_URL }} --image-uuid ${NEW_UUID} \
+            --scope all > vision_analysis_report.json
+
+          # Parse the analysis results
+          report_threat_level=`cat vision_analysis_report.json | jq -r '."analysis_summary"."threat_level"'`
+          report_threat_level_val=`case ${report_threat_level} in "None") echo "20";; "Very High") echo "10";; "High") echo "8";; "Medium") echo "6";; "Low") echo "4";; "Very Low") echo "2";; esac`
+          report_cves=`cat vision_analysis_report.json | jq -r '."analysis_summary"."highlighted_issues_count"."cves_count"'`
+          report_exposures=`cat vision_analysis_report.json | jq -r '."analysis_summary"."highlighted_issues_count"."exposures_count"'`
+          report_highlighted_total="$(($report_cves+$report_exposures))"
+          report_malicious_files=`cat vision_analysis_report.json | jq -r '."analysis_summary"."highlighted_issues_count"."malicious_files_count"'`
+          max_threat_level_val=`case ${VISION_MAX_THREAT_LEVEL} in "None") echo "20";; "Very High") echo "10";; "High") echo "8";; "Medium") echo "6";; "Low") echo "4";; "Very Low") echo "2";; esac`
+
+          # Check the analysis results against the thresholds
+          if [[ ${report_threat_level_val} -gt ${max_threat_level_val} ]] ; then
+              echo "Analysis failed due to threat level too high - ${report_threat_level} vs. ${VISION_MAX_THREAT_LEVEL}"
+              exit 1
+          fi
+
+          if [[ $((report_highlighted_total)) -gt $((VISION_MAX_HIGHLIGHTED_ISSUES)) ]] ; then
+              echo "Analysis failed due to too many highlighted issues (${report_highlighted_total} > ${VISION_MAX_HIGHLIGHTED_ISSUES})"
+              exit 1
+          fi
+
+          if [[ ${report_cves} -gt ${VISION_MAX_HIGHLIGHTED_CVES} ]] ; then
+              echo "Analysis failed due to too many CVEs (${report_cves} > ${VISION_MAX_HIGHLIGHTED_CVES})"
+              exit 1
+          fi
+
+          if [[ ${report_exposures} -gt ${VISION_MAX_HIGHLIGHTED_EXPOSURES} ]] ; then
+              echo "Analysis failed due to too many exposures (${report_exposures} > ${VISION_MAX_HIGHLIGHTED_EXPOSURES})"
+              exit 1
+          fi
+
+          if [[ ${report_malicious_files} -gt ${VISION_MAX_MALICIOUS_FILES} ]] ; then
+              echo "Analysis failed due to too many malicious_files (${report_malicious_files} > ${VISION_MAX_MALICIOUS_FILES})"
+              exit 1
+          fi
+
+          echo "Done"
+
+      - name: Archive artifact scan results json
+        uses: actions/upload-artifact@v4
+        with:
+          name: vision-analysis-result
+          path: vision_analysis_report.json 
+ 
