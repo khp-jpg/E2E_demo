@@ -69,6 +69,7 @@ function ProfileHandler(db) {
                 ssn,
                 dob,
                 address,
+                website,
                 bankAcc,
                 bankRouting,
                 environmentalScripts
@@ -86,6 +87,7 @@ function ProfileHandler(db) {
             ssn,
             dob,
             address,
+            website,
             bankAcc,
             bankRouting,
             (err, user) => {
