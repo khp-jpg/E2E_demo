@@ -70,7 +70,7 @@ const AllocationsDAO = function(db){
                 const parsedThreshold = parseInt(threshold, 10);
                 
                 if (parsedThreshold >= 0 && parsedThreshold <= 99) {
-                    return {$where: `this.userId == ${parsedUserId} && this.stocks > ${threshold}`};
+                    return {$where: `this.userId == ${parsedUserId} && this.stocks > ${parsedThreshold}`};
                 }
                 throw `The user supplied threshold: ${parsedThreshold} was not valid.`;
                 */
@@ -81,7 +81,7 @@ const AllocationsDAO = function(db){
             return {
                 userId: parsedUserId
             };
-        }
+        };
 
         allocationsCol.find(searchCriteria()).toArray((err, allocations) => {
             if (err) return callback(err, null);
@@ -109,6 +109,6 @@ const AllocationsDAO = function(db){
         });
     };
 
-}
+};
 
 module.exports.AllocationsDAO = AllocationsDAO;

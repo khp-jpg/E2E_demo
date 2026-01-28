@@ -1,14 +1,19 @@
 const ProfileDAO = require("../data/profile-dao").ProfileDAO;
-const ESAPI = require('node-esapi')
+const ESAPI = require("node-esapi");
+const {
+    environmentalScripts
+} = require("../../config/config");
 
 /* The ProfileHandler must be constructed with a connected db */
-function ProfileHandler (db) {
+function ProfileHandler(db) {
     "use strict";
 
     const profile = new ProfileDAO(db);
 
     this.displayProfile = (req, res, next) => {
-        const { userId } = req.session;
+        const {
+            userId
+        } = req.session;
 
 
 
@@ -20,18 +25,29 @@ function ProfileHandler (db) {
             // while the developer intentions were correct in encoding the user supplied input so it
             // doesn't end up as an XSS attack, the context is incorrect as it is encoding the firstname for HTML
             // while this same variable is also used in the context of a URL link element
-            doc.firstNameSafeString = ESAPI.encoder().encodeForHTML(doc.firstName)
+            doc.website = ESAPI.encoder().encodeForHTML(doc.website);
             // fix it by replacing the above with another template variable that is used for 
             // the context of a URL in a link header
-            // doc.doc.firstNameSafeURLString = ESAPI.encoder().encodeForURL(urlInput)
+            // doc.website = ESAPI.encoder().encodeForURL(doc.website)
 
-            return res.render("profile", doc);
+            return res.render("profile", {
+                ...doc,
+                environmentalScripts
+            });
         });
     };
 
     this.handleProfileUpdate = (req, res, next) => {
 
-        const {firstName, lastName, ssn, dob, address, bankAcc, bankRouting} = req.body;
+        const {
+            firstName,
+            lastName,
+            ssn,
+            dob,
+            address,
+            bankAcc,
+            bankRouting
+        } = req.body;
 
         // Fix for Section: ReDoS attack
         // The following regexPattern that is used to validate the bankRouting number is insecure and vulnerable to
@@ -45,7 +61,7 @@ function ProfileHandler (db) {
         const testComplyWithRequirements = regexPattern.test(bankRouting);
         // if the regex test fails we do not allow saving
         if (testComplyWithRequirements !== true) {
-            const firstNameSafeString = firstName
+            const firstNameSafeString = firstName;
             return res.render("profile", {
                 updateError: "Bank Routing number does not comply with requirements for format specified",
                 firstNameSafeString,
@@ -54,11 +70,14 @@ function ProfileHandler (db) {
                 dob,
                 address,
                 bankAcc,
-                bankRouting
+                bankRouting,
+                environmentalScripts
             });
         }
 
-        const { userId } = req.session;
+        const {
+            userId
+        } = req.session;
 
         profile.updateUser(
             parseInt(userId),
@@ -78,7 +97,10 @@ function ProfileHandler (db) {
                 user.updateSuccess = true;
                 user.userId = userId;
 
-                return res.render("profile", user);
+                return res.render("profile", {
+                    ...user,
+                    environmentalScripts
+                });
             }
         );
 
