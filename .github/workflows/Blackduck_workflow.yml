@@ -9,7 +9,7 @@ on:
   
 jobs:
   build:
-    runs-on: [khp_]
+    runs-on: [mac_khp_sh]
     steps:
     - name: Checkout Source
       uses: actions/checkout@v4
