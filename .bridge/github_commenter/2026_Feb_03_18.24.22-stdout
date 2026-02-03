@@ -1,0 +1,2 @@
+/Users/khp/bridge-cli-bundle/bridge-cli-bundle-macosx/adapters/github-commenter/versions/0.2.109/github-commenter /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/github_commenter/data.json
+{"level":"info","logger":"GitHub Commenter","msg":"will use default GitHub API URL \"https://api.github.com\", as \"github.api.url\" and \"github.host.url\" is not configured","time":"2026-02-03 18:24:24.2733 IST"}
