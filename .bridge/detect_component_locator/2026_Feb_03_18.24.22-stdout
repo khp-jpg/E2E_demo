@@ -1,0 +1,2 @@
+/Users/khp/bridge-cli-bundle/bridge-cli-bundle-macosx/adapters/detect-component-locator/versions/0.1.122/detect-component-locator /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/detect_component_locator/data.json
+{"level":"info","logger":"Detect Component Locator","msg":"skipping fix pull requests creation as \"blackducksca.fixpr.enabled\" is configured to false","time":"2026-02-03 18:24:22.4938 IST"}
