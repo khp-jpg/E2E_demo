@@ -1,0 +1,2 @@
+/Users/khp/bridge-cli-bundle/bridge-cli-bundle-macosx/adapters/connect-workflow-controller/versions/0.2.157/connect-workflow-controller /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/coverity_connect_controller/data.json
+{"level":"info","logger":"Coverity Connect Controller","msg":"Will use the supported configured coverity.version \"2025.6.1\" that exists in the install directory \"/Users/khp/Documents/install_Directory\", but it is not the default version","time":"2026-02-04 18:41:17.8831 IST"}

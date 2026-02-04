@@ -1,0 +1,2 @@
+/Users/khp/bridge-cli-bundle/bridge-cli-bundle-macosx/adapters/coverity-connect-post-scan/versions/0.2.66/coverity-connect-post-scan /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/coverity_connect_post_scan/data.json
+{"level":"warning","logger":"Coverity Connect Post Scan","msg":"Breaking the build because configured Coverity Connect View has issues present.","time":"2026-02-04 18:44:53.4655 IST"}
