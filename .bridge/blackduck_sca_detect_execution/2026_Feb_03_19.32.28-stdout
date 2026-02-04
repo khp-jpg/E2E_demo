@@ -1,0 +1,157 @@
+/Users/khp/bridge-cli-bundle/bridge-cli-bundle-macosx/adapters/detect-execution/versions/0.2.153/detect-execution /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/data.json
+{"level":"info","logger":"Detect Execution","msg":"Running command java -jar /Users/khp/.blackduck/bridge/tools/blackduck-detect/11.1.0/detect-11.1.0.jar --detect.cleanup=false --detect.bdio.file.name=scan --detect.bdio.output.path=/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect/bdio/blackduck_artifact --detect.output.path=/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect --blackduck.offline.mode=false --blackduck.url=https://saastest.app.blackduck.com --blackduck.api.token= --detect.blackduck.scan.mode=RAPID --detect.blackduck.rapid.compare.mode=BOM_COMPARE_STRICT","time":"2026-02-03 19:32:28.0847 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Detect-Self-Updater:  Checking https://saastest.app.blackduck.com/api/tools/detect API for centrally managed Detect version to download to /Users/khp/tmp.","time":"2026-02-03 19:32:29.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Detect Execution","msg":"--- Detect-Self-Updater:  Unable to download jar from https://saastest.app.blackduck.com/api/tools/detect.","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Detect Execution","msg":"--- Detect-Self-Updater:  Response code from https://saastest.app.blackduck.com/api/tools/detect was: 400 Bad Request","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"______     _            _","time":"2026-02-03 19:32:32.4075 IST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"|  _  \\   | |          | |","time":"2026-02-03 19:32:32.4076 IST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"| | | |___| |_ ___  ___| |_","time":"2026-02-03 19:32:32.4077 IST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"| | | / _ \\ __/ _ \\/ __| __|","time":"2026-02-03 19:32:32.4077 IST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"| |/ /  __/ ||  __/ (__| |_","time":"2026-02-03 19:32:32.4077 IST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"|___/ \\___|\\__\\___|\\___|\\__|","time":"2026-02-03 19:32:32.4077 IST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"","time":"2026-02-03 19:32:32.4078 IST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"","time":"2026-02-03 19:32:32.5511 IST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"Detect Version: 11.1.0","time":"2026-02-03 19:32:32.5511 IST"}
+{"external_parsed":true,"level":"info","logger":"Detect Execution","msg":"","time":"2026-02-03 19:32:32.5512 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Current property values:","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- --property = value [notes]","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ------------------------------------------------------------","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- blackduck.api.token = **************************************************************************************************** [cmd] ","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- blackduck.offline.mode = false [cmd] ","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- blackduck.url = https://saastest.app.blackduck.com [cmd] ","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.bdio.file.name = scan [cmd] ","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.bdio.output.path = /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect/bdio/blackduck_artifact [cmd] ","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.blackduck.rapid.compare.mode = BOM_COMPARE_STRICT [cmd] ","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.blackduck.scan.mode = RAPID [cmd] ","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.cleanup = false [cmd] ","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.excluded.directories = /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge [env] ","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.output.path = /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect [cmd] ","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- detect.project.name = E2E_demo [env] ","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ------------------------------------------------------------","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Detect build date: 2025-12-11","time":"2026-02-03 19:32:32.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Source directory: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo","time":"2026-02-03 19:32:33.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Output directory: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect","time":"2026-02-03 19:32:33.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Run directory: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect/runs/2026-02-03-14-02-32-539","time":"2026-02-03 19:32:33.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:33.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"warning","logger":"Detect Execution","msg":"--- Correlated Scanning is not available for Rapid/Stateless scan mode or offline scanning. A correlation ID will not be set.","time":"2026-02-03 19:32:33.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Successfully connected to Black Duck SCA (version 2025.10.2)!","time":"2026-02-03 19:32:40.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2026-02-03 19:32:42.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Will include the Docker tool.","time":"2026-02-03 19:32:42.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Docker actions finished.","time":"2026-02-03 19:32:42.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2026-02-03 19:32:42.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Bazel tool will not be run.","time":"2026-02-03 19:32:42.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2026-02-03 19:32:42.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Will include the Detectors tool.","time":"2026-02-03 19:32:42.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Searching for detectors.","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Evaluating detectors. This may take a while.","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Running executable \u003e/usr/local/bin/git config --get remote.origin.url","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Process return code: 0","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Running executable \u003e/usr/local/bin/git rev-parse --abbrev-ref HEAD","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Process return code: 0","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- HEAD is detached for this repo, using heuristics to find Git branch.","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Running executable \u003e/usr/local/bin/git log -n 1 --pretty=%d HEAD","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Process return code: 0","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Running executable \u003e/usr/local/bin/git rev-parse HEAD","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Process return code: 0","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ======================================================================================================","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Detector Report","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ======================================================================================================","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo (depth 0)","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tNPM Package Lock: SUCCESS","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tFound file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package-lock.json","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tFound file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tGit: SUCCESS","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tFound file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.git","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tFound executable: /usr/local/bin/git","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- The following project names were found: ","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \tNPM: owasp-nodejs-goat, 1.3.0","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Chose to use NPM at depth 0 for project name and version. Override with detect.project.detector.","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Detectors actions finished.","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Project name: E2E_demo","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Project version: 1.3.0","time":"2026-02-03 19:32:43.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Begin Rapid Mode Scan","time":"2026-02-03 19:32:44.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Uploaded Rapid Scan: https://saastest.app.blackduck.com/api/developer-scans/af1fdcf1-d32d-4686-a19b-a7e2ad03e760","time":"2026-02-03 19:32:50.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2026-02-03 19:32:50.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Signature Scanner tool will not be run.","time":"2026-02-03 19:32:50.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2026-02-03 19:32:50.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Binary Scanner tool will not be run.","time":"2026-02-03 19:32:50.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ----------------------------------","time":"2026-02-03 19:32:50.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Container Scanner tool will not be run.","time":"2026-02-03 19:32:50.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Try #1 for task Waiting for Rapid Scans (elapsed: 00:00:00.000)...not done yet, waiting 1 seconds and trying again...","time":"2026-02-03 19:32:51.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Try #2 for task Waiting for Rapid Scans (elapsed: 00:00:01.995)...not done yet, waiting 2 seconds and trying again...","time":"2026-02-03 19:32:53.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Try #3 for task Waiting for Rapid Scans (elapsed: 00:00:04.977)...complete!","time":"2026-02-03 19:32:56.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Rapid Scan Result Details:","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \tComponents Errors: ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tComponent jQuery version 2.2.4 with ID jquery/2.2.4 violates policy all_match_types","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \tComponents Warnings: ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \tSecurity Errors: ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tComponent jQuery version 2.2.4 with ID jquery/2.2.4 violates policy all_security_vulns/Critical_With Overall_Score_GE 7/all_components_vulns/security_vulns: found vulnerability BDSA-2020-0686 with severity HIGH and CVSS score 8.6.","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tComponent jQuery version 2.2.4 with ID jquery/2.2.4 violates policy all_security_vulns/security_vulns: found vulnerability BDSA-2021-3651 with severity LOW and CVSS score 3.0.","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tComponent jQuery version 2.2.4 with ID jquery/2.2.4 violates policy all_security_vulns/Critical_With Overall_Score_GE 7/all_components_vulns/security_vulns: found vulnerability BDSA-2020-0964 with severity HIGH and CVSS score 8.6.","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tComponent jQuery version 2.2.4 with ID jquery/2.2.4 violates policy all_security_vulns/security_vulns: found vulnerability BDSA-2019-1138 with severity MEDIUM and CVSS score 5.1.","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tComponent jQuery version 2.2.4 with ID jquery/2.2.4 violates policy all_security_vulns/Critical_With Overall_Score_GE 7/security_vulns: found vulnerability BDSA-2017-2930 with severity HIGH and CVSS score 8.1.","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tComponent jQuery version 2.2.4 with ID jquery/2.2.4 violates policy all_security_vulns/Critical_With Overall_Score_GE 7/security_vulns: found vulnerability BDSA-2014-0063 with severity HIGH and CVSS score 8.4.","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \tSecurity Warnings: ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \tLicense Errors: ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \tLicense Warnings: ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \tOther Errors: ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tComponent jQuery version 2.2.4 with ID jquery/2.2.4 violates policy all_security_vulns/Critical_With Overall_Score_GE 7/all_match_types/all_components_vulns/security_vulns","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \tOther Warnings: ","time":"2026-02-03 19:32:57.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:58.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:58.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Creating status file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect/runs/2026-02-03-14-02-32-539/status/status.json","time":"2026-02-03 19:32:58.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:58.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Skipping cleanup, it is disabled.","time":"2026-02-03 19:32:58.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ======== Detect Result ========","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Rapid Scan Result: (for more detail look in the log for Rapid Scan Result Details)","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tCritical and blocking policy violations for","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\t* Components: 1","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\t* Security: 6","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\t* License: 0","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\t* Other: 1","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tOther policy violations","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\t* Components: 0","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\t* Security: 0","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\t* License: 0","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\t* Other: 0","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tPolicies Violated:","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tCritical_With Overall_Score_GE 7","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tall_components_vulns","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tall_match_types","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tall_security_vulns","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tsecurity_vulns","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tComponents with Policy Violations:","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\t\tjQuery 2.2.4 (npmjs:jquery/2.2.4)","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- \t\tComponents with Policy Violation Warnings:","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ======== Detect Status ========","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- GIT: SUCCESS","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- NPM: SUCCESS","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"error","logger":"Detect Execution","msg":"--- Overall Status: FAILURE_POLICY_VIOLATION - Detect found policy violations.","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ===============================","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- ","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"info","logger":"Detect Execution","msg":"--- Detect duration: 00h 00m 30s 459ms","time":"2026-02-03 19:32:59.0000 IST"}
+{"external_parsed":true,"extras":["main"],"level":"error","logger":"Detect Execution","msg":"--- Exiting with code 3 - FAILURE_POLICY_VIOLATION","time":"2026-02-03 19:32:59.0000 IST"}
+{"level":"info","logger":"Detect Execution","msg":"Results are available at \"/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect/runs/2026-02-03-14-02-32-539/scan/E2E_demo_1_3_0_BlackDuck_DeveloperMode_Result.json\"","time":"2026-02-03 19:32:59.4965 IST"}
