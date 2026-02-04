@@ -1,0 +1,134 @@
+{
+  "formatVersion": "0.5.0",
+  "detectVersion": "11.1.0",
+  "projectName": "E2E_demo",
+  "projectVersion": "1.3.0",
+  "detectors": [
+    {
+      "folder": "/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo",
+      "detectorType": "NPM",
+      "detectorName": "NPM Package Lock",
+      "detectorAccuracy": "HIGH",
+      "extracted": true,
+      "status": "SUCCESS",
+      "statusCode": "PASSED",
+      "statusReason": "Passed",
+      "relevantFiles": [],
+      "explanations": [
+        "Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package-lock.json",
+        "Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json"
+      ],
+      "projectName": "owasp-nodejs-goat",
+      "projectVersion": "1.3.0",
+      "codeLocationCount": 1
+    },
+    {
+      "folder": "/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo",
+      "detectorType": "GIT",
+      "detectorName": "Git",
+      "detectorAccuracy": "HIGH",
+      "extracted": true,
+      "status": "SUCCESS",
+      "statusCode": "PASSED",
+      "statusReason": "Passed",
+      "relevantFiles": [],
+      "explanations": [
+        "Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.git",
+        "Found executable: /usr/local/bin/git"
+      ],
+      "projectName": "khp-jpg/E2E_demo",
+      "projectVersion": "22604f10202e62c47c25a53851e33e8ce13ee53b",
+      "codeLocationCount": 0
+    }
+  ],
+  "status": [
+    {
+      "key": "GIT",
+      "status": "SUCCESS"
+    },
+    {
+      "key": "NPM",
+      "status": "SUCCESS"
+    }
+  ],
+  "issues": [],
+  "overallStatus": [
+    {
+      "key": "FAILURE_POLICY_VIOLATION",
+      "status": "Detect found policy violations."
+    }
+  ],
+  "results": [
+    {
+      "location": "/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect/runs/2026-02-03-14-02-32-539/scan/E2E_demo_1_3_0_BlackDuck_DeveloperMode_Result.json",
+      "message": "Rapid Scan Result: (for more detail look in the log for Rapid Scan Result Details)",
+      "sub_messages": [
+        "Critical and blocking policy violations for",
+        "  * Components: 1",
+        "  * Security: 6",
+        "  * License: 0",
+        "  * Other: 1",
+        "Other policy violations",
+        "  * Components: 0",
+        "  * Security: 0",
+        "  * License: 0",
+        "  * Other: 0",
+        "Policies Violated:",
+        "  Critical_With Overall_Score_GE 7",
+        "  all_components_vulns",
+        "  all_match_types",
+        "  all_security_vulns",
+        "  security_vulns",
+        "Components with Policy Violations:",
+        "  jQuery 2.2.4 (npmjs:jquery/2.2.4)",
+        "Components with Policy Violation Warnings:"
+      ]
+    }
+  ],
+  "unrecognizedPaths": {},
+  "codeLocations": [
+    {
+      "scanId": "af1fdcf1-d32d-4686-a19b-a7e2ad03e760",
+      "scanType": "DETECTOR"
+    }
+  ],
+  "propertyValues": {
+    "blackduck.api.token": "****************************************************************************************************",
+    "blackduck.offline.mode": "false",
+    "blackduck.url": "https://saastest.app.blackduck.com",
+    "detect.bdio.file.name": "scan",
+    "detect.bdio.output.path": "/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect/bdio/blackduck_artifact",
+    "detect.blackduck.rapid.compare.mode": "BOM_COMPARE_STRICT",
+    "detect.blackduck.scan.mode": "RAPID",
+    "detect.cleanup": "false",
+    "detect.excluded.directories": "/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge",
+    "detect.output.path": "/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect",
+    "detect.project.name": "E2E_demo"
+  },
+  "operations": [
+    {
+      "startTimestamp": "2026-02-03 14:02:42.969",
+      "endTimestamp": "2026-02-03 14:02:43.466",
+      "descriptionKey": "Execute Detectors",
+      "status": "SUCCESS"
+    },
+    {
+      "startTimestamp": "2026-02-03 14:02:43.468",
+      "endTimestamp": "2026-02-03 14:02:43.477",
+      "descriptionKey": "SubProject Aggregate",
+      "status": "SUCCESS"
+    },
+    {
+      "startTimestamp": "2026-02-03 14:02:43.766",
+      "endTimestamp": "2026-02-03 14:02:44.948",
+      "descriptionKey": "Phone Home",
+      "status": "SUCCESS"
+    },
+    {
+      "startTimestamp": "2026-02-03 14:02:57.523",
+      "endTimestamp": "2026-02-03 14:02:57.534",
+      "descriptionKey": "Generate Rapid Json File",
+      "status": "SUCCESS"
+    }
+  ]
+}

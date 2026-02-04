@@ -1,0 +1,2 @@
+/Users/khp/bridge-cli-bundle/bridge-cli-bundle-macosx/adapters/check-pull-request/versions/0.3.77/check-pull-request /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/check_pull_request/data.json
+{"level":"info","logger":"Check Pull Request","msg":"Pipeline triggered for Github Pull request event","time":"2026-02-03 19:32:26.9742 IST"}

@@ -1,0 +1,77 @@
+{
+  "sourcePath": "",
+  "componentList": [
+    {
+      "artifactID": "jquery",
+      "version": "2.2.4",
+      "declarationLocation": {
+        "fileLocations": [
+          {
+            "filePath": "package-lock.json",
+            "lineLocations": [
+              {
+                "lineNumber": 5761,
+                "columnLocations": [
+                  {
+                    "colStart": 19,
+                    "colEnd": 23
+                  }
+                ]
+              },
+              {
+                "lineNumber": 5762,
+                "columnLocations": [
+                  {
+                    "colStart": 63,
+                    "colEnd": 67
+                  }
+                ]
+              },
+              {
+                "lineNumber": 21,
+                "columnLocations": [
+                  {
+                    "colStart": 21,
+                    "colEnd": 25
+                  }
+                ]
+              },
+              {
+                "lineNumber": 19927,
+                "columnLocations": [
+                  {
+                    "colStart": 19,
+                    "colEnd": 23
+                  }
+                ]
+              },
+              {
+                "lineNumber": 19928,
+                "columnLocations": [
+                  {
+                    "colStart": 63,
+                    "colEnd": 67
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "filePath": "package.json",
+            "lineLocations": [
+              {
+                "lineNumber": 24,
+                "columnLocations": [
+                  {
+                    "colStart": 16,
+                    "colEnd": 20
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

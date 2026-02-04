@@ -1,0 +1,2 @@
+/Users/khp/bridge-cli-bundle/bridge-cli-bundle-macosx/adapters/blackduck-sca-results/versions/0.2.131/blackduck-sca-results /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_results/data.json
+{"level":"info","logger":"Blackduck SCA Results","msg":"no rapid scan results found, skipping create commenter issue","time":"2026-02-03 18:24:22.3559 IST"}

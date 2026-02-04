@@ -1,0 +1,128 @@
+{
+  "formatVersion": "0.5.0",
+  "detectVersion": "11.1.0",
+  "projectName": "E2E_demo",
+  "projectVersion": "1.3.0",
+  "detectors": [
+    {
+      "folder": "/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo",
+      "detectorType": "NPM",
+      "detectorName": "NPM Package Lock",
+      "detectorAccuracy": "HIGH",
+      "extracted": true,
+      "status": "SUCCESS",
+      "statusCode": "PASSED",
+      "statusReason": "Passed",
+      "relevantFiles": [],
+      "explanations": [
+        "Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package-lock.json",
+        "Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json"
+      ],
+      "projectName": "owasp-nodejs-goat",
+      "projectVersion": "1.3.0",
+      "codeLocationCount": 1
+    },
+    {
+      "folder": "/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo",
+      "detectorType": "GIT",
+      "detectorName": "Git",
+      "detectorAccuracy": "HIGH",
+      "extracted": true,
+      "status": "SUCCESS",
+      "statusCode": "PASSED",
+      "statusReason": "Passed",
+      "relevantFiles": [],
+      "explanations": [
+        "Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.git",
+        "Found executable: /usr/local/bin/git"
+      ],
+      "projectName": "khp-jpg/E2E_demo",
+      "projectVersion": "fdded3ef607e6a22ebe8e9bc77116508016f5498",
+      "codeLocationCount": 0
+    }
+  ],
+  "status": [
+    {
+      "key": "GIT",
+      "status": "SUCCESS"
+    },
+    {
+      "key": "NPM",
+      "status": "SUCCESS"
+    }
+  ],
+  "issues": [],
+  "overallStatus": [
+    {
+      "key": "SUCCESS",
+      "status": "Detect exited successfully."
+    }
+  ],
+  "results": [
+    {
+      "location": "/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect/runs/2026-02-03-12-53-39-742/scan/E2E_demo_1_3_0_BlackDuck_DeveloperMode_Result.json",
+      "message": "Rapid Scan Result: (for more detail look in the log for Rapid Scan Result Details)",
+      "sub_messages": [
+        "Critical and blocking policy violations for",
+        "  * Components: 0",
+        "  * Security: 0",
+        "  * License: 0",
+        "  * Other: 0",
+        "Other policy violations",
+        "  * Components: 0",
+        "  * Security: 0",
+        "  * License: 0",
+        "  * Other: 0",
+        "Policies Violated:",
+        "Components with Policy Violations:",
+        "Components with Policy Violation Warnings:"
+      ]
+    }
+  ],
+  "unrecognizedPaths": {},
+  "codeLocations": [
+    {
+      "scanId": "960b3577-c217-4acb-84e1-819b49942833",
+      "scanType": "DETECTOR"
+    }
+  ],
+  "propertyValues": {
+    "blackduck.api.token": "****************************************************************************************************",
+    "blackduck.offline.mode": "false",
+    "blackduck.url": "https://saastest.app.blackduck.com",
+    "detect.bdio.file.name": "scan",
+    "detect.bdio.output.path": "/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect/bdio/blackduck_artifact",
+    "detect.blackduck.rapid.compare.mode": "BOM_COMPARE_STRICT",
+    "detect.blackduck.scan.mode": "RAPID",
+    "detect.cleanup": "false",
+    "detect.excluded.directories": "/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge",
+    "detect.output.path": "/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/blackduck_sca_detect_execution/detect",
+    "detect.project.name": "E2E_demo"
+  },
+  "operations": [
+    {
+      "startTimestamp": "2026-02-03 12:53:49.576",
+      "endTimestamp": "2026-02-03 12:53:49.985",
+      "descriptionKey": "Execute Detectors",
+      "status": "SUCCESS"
+    },
+    {
+      "startTimestamp": "2026-02-03 12:53:49.988",
+      "endTimestamp": "2026-02-03 12:53:49.995",
+      "descriptionKey": "SubProject Aggregate",
+      "status": "SUCCESS"
+    },
+    {
+      "startTimestamp": "2026-02-03 12:53:50.265",
+      "endTimestamp": "2026-02-03 12:53:51.209",
+      "descriptionKey": "Phone Home",
+      "status": "SUCCESS"
+    },
+    {
+      "startTimestamp": "2026-02-03 12:54:20.178",
+      "endTimestamp": "2026-02-03 12:54:20.185",
+      "descriptionKey": "Generate Rapid Json File",
+      "status": "SUCCESS"
+    }
+  ]
+}
