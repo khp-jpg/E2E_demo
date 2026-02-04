@@ -27,7 +27,8 @@ jobs:
           # coverity_local: true
           
           ### POLICY ENFORCEMENT: Uncomment to break build on policy
-          coverity_policy_view: 'Outstanding Issues'
+          #coverity_policy_view: 'Outstanding Issues'
+          coverity_policy_view: '10006'
           
           ### PULL REQUEST COMMENTS:
           coverity_prComment_enabled: true
@@ -36,9 +37,13 @@ jobs:
           ## NOTE: Issues matching coverity_policy_view are ignored if set
           # coverity_prComment_impacts: 'High,Medium,Low,Audit'
           github_token: ${{ secrets.GIT_PAT_TOKEN }} # Required when PR comments is enabled 
-                            
+
+          coverity_install_directory: "/Users/khp/Documents/install_Directory"
+
+
+          coverity_version: '2025.6.1'
           ### Mark build status if policy violating issues are found
-          # mark_build_status: 'success'
+          mark_build_status: 'success'
                             
       ### Uncomment below configuration to add custom logic based on return status
       # - name: cmdLine
