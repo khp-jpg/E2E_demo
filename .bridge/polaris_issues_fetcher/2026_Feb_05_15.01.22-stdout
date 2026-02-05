@@ -1,0 +1,5 @@
+/Users/khp/bridge-cli-bundle/bridge-cli-bundle-macosx/adapters/polaris-issues-fetcher/versions/0.2.85/polaris-issues-fetcher /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_issues_fetcher/data.json
+{"level":"info","logger":"Polaris Issues Fetcher","msg":"Fetching issues for \"SAST(sastFull)\" assessment","time":"2026-02-05 15:01:22.5685 IST"}
+{"level":"info","logger":"Polaris Issues Fetcher","msg":"Fetching issues for \"SCA(scaPackage)\" assessment","time":"2026-02-05 15:01:22.5692 IST"}
+{"level":"info","logger":"Polaris Issues Fetcher","msg":"Successfully fetched issues for assessment type \"SCA(scaPackage)\" with id \"ddd501b2-577c-4102-a89d-78492229a119\"\n {\n \"critical\": 6,\n \"high\": 122,\n \"informational\": 0,\n \"low\": 15,\n \"medium\": 148\n}\n","time":"2026-02-05 15:01:23.6181 IST"}
+{"level":"info","logger":"Polaris Issues Fetcher","msg":"Successfully fetched issues for assessment type \"SAST(sastFull)\" with id \"456dbdff-4984-411d-8076-485306d638f4\"\n {\n \"critical\": 0,\n \"high\": 3,\n \"informational\": 0,\n \"low\": 31,\n \"medium\": 13\n}\n","time":"2026-02-05 15:01:23.6472 IST"}

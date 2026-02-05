@@ -1,0 +1,13 @@
+/Users/khp/bridge-cli-bundle/bridge-cli-bundle-macosx/adapters/polaris-initializer/versions/1.0.218/polaris-initializer /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_initializer/data.json
+{"level":"debug","logger":"Polaris Initializer","msg":"Successfully fetched portfolio id : 5d4d6184-07f5-4fd1-a024-4345aace406c","time":"2026-02-05 14:58:45.7161 IST"}
+{"level":"debug","logger":"Polaris Initializer","msg":"Successfully fetched application id : c44a936d-28dd-4bf6-9c10-9e6e51a86928","time":"2026-02-05 14:58:46.4082 IST"}
+{"level":"info","logger":"Polaris Initializer","msg":"`polaris.branch.name` is not set. Using `scm.branch.name`","time":"2026-02-05 14:58:46.4083 IST"}
+{"level":"debug","logger":"Polaris Initializer","msg":"Successfully fetched project id : 6feceb14-1105-4721-93f7-9527ef56f17f","time":"2026-02-05 14:58:46.8203 IST"}
+{"level":"debug","logger":"Polaris Initializer","msg":"Successfully fetched branch id: a746cffc-6c3b-48ff-b4c4-361525903fac","time":"2026-02-05 14:58:47.2498 IST"}
+{"level":"debug","logger":"Polaris Initializer","msg":"Creating test for \"SCA\" assessment with default scan type \"SCA-PACKAGE\"","time":"2026-02-05 14:58:47.2500 IST"}
+{"level":"debug","logger":"Polaris Initializer","msg":"Creating test for \"SAST\" assessment with default scan type \"SAST_FULL\"","time":"2026-02-05 14:58:47.2500 IST"}
+{"level":"info","logger":"Polaris Initializer","msg":"No version specified for detect, using recommended version: 10.4.0","time":"2026-02-05 14:58:49.5935 IST"}
+{"level":"info","logger":"Polaris Initializer","msg":"Using Coverity version from version settings: ","time":"2026-02-05 14:58:49.5935 IST"}
+{"level":"info","logger":"Polaris Initializer","msg":"No version specified for cov_thin_client, using recommended version: 2025.12.0","time":"2026-02-05 14:58:50.5933 IST"}
+{"level":"info","logger":"Polaris Initializer","msg":"Successfully created test for \"SAST(sastFull)\" assessment. The short test ID is \"LFC5CQP\"","time":"2026-02-05 14:58:58.3912 IST"}
+{"level":"info","logger":"Polaris Initializer","msg":"Successfully created test for \"SCA(scaPackage)\" assessment. The short test ID is \"HRLH4HB\"","time":"2026-02-05 14:59:00.4360 IST"}

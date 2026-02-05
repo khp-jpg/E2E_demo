@@ -1,0 +1,4 @@
+Native Compiler invocation: ./ --coverity_resp_file=/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/cov-translate-resp-file8
+Working directory: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+Comptype: typescript
+* Configuring TypeScript Buildless Capture

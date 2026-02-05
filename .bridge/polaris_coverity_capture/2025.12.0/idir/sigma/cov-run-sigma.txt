@@ -1,0 +1,57 @@
+Running Sigma.
+/Users/khp/.blackduck/bridge/tools/sigma/2026.1.0/sigma --config /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/sigma/sigma-config.json --internal-polaris-scan-log /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/sigma/sigma-log.json --internal-coverity-config /var/folders/sh/0h3w2by574l11xgsfsnc1thc0000gn/T/cov-run-sigma-config-4210834344/coverity.yaml analyze /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+
+Importing sources...
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/Procfile
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/research_spec.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/allocations-dao.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/benefits_spec.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/profile.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/index.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.github/workflows/lint.yml
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/signup_spec.js
+Detected UTF-8 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/memos-dao.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/config/config.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/tutorial.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/contributions_spec.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/contributions.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/general_spec.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/profile-dao.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/logout_spec.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/memos.js
+Detected ISO-8859-2 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/support/index.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/error.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/research.js
+Detected UTF-8 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/user-dao.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/memos_spec.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/plugins/index.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.github/workflows/Coverity_Workflow_BD_Scan.yml
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/artifacts/db-reset.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/config/env/all.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/profile_spec.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/learn_spec.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/allocations_spec.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/benefits-dao.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/config/env/development.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/support/commands.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/tutorial_spec.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/server.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/dashboard_spec.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/config/env/production.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/config/env/test.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/research-dao.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.github/workflows/Smiplification_Polaris_Demo.yml
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/LICENSE
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/session.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/assets/js/tour/redirects-steps.js
+Detected UTF-8 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/contributions-dao.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.gitignore
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/benefits.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/login_spec.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/allocations.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/assets/js/chart/chart-data-morris.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.github/workflows/Blackduck_workflow.yml
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.github/workflows/e2e-test.yml
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/Gruntfile.js
+Detected ISO-8859-1 encoding for /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/security/profile-test.js
+Completed source import.

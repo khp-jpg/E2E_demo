@@ -1,0 +1,22 @@
+------------------------------------------------------------------------------------------------------
+
+Report: Detector Report
+Run id: 2026-02-05-09-29-17-749
+A breakdown of detector's that were applicableChildren and their preparation and extraction results.
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+DIRECTORY: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+DETECTOR: NPM
+EXTRACTED: NPM Package Lock
+	EXTRACTION: 1 Code Locations
+		Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package-lock.json
+		Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json
+DETECTOR: GIT
+EXTRACTED: Git
+	EXTRACTION: 0 Code Locations
+		Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.git
+		Found executable: /usr/local/bin/git
+======================================================================================================
+
+
