@@ -1,0 +1,72 @@
+2026-02-05T09:29:18,043Z INFO [DiagnosticLogger.java:33] Redirected to file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_sca_package_manager_scan/detect/runs/2026-02-05-09-29-17-749/logs/info.txt
+2026-02-05T09:29:18,043Z INFO [DiagnosticLogSystem.java:46] Attempting to restrict console to debug level (additional levels written to files).
+2026-02-05T09:29:18,044Z INFO [DiagnosticLogSystem.java:49] Adding additional log listeners to extractions.
+2026-02-05T09:29:18,044Z INFO [DiagnosticLogSystem.java:54] Diagnostics is now in control of logging!
+2026-02-05T09:29:18,046Z INFO [DiagnosticSystem.java:69] Creating configuration diagnostics reports.
+2026-02-05T09:29:18,047Z INFO [DiagnosticSystem.java:73] Diagnostics system is ready.
+2026-02-05T09:29:18,048Z INFO [DetectBoot.java:189] 
+2026-02-05T09:29:18,277Z WARN [DetectBoot.java:219] Correlated Scanning is not available for Rapid/Stateless scan mode or offline scanning. A correlation ID will not be set.
+2026-02-05T09:29:18,367Z INFO [StepHelper.java:62] ----------------------------------
+2026-02-05T09:29:18,367Z INFO [StepHelper.java:70] Docker tool will not be run.
+2026-02-05T09:29:18,368Z INFO [StepHelper.java:62] ----------------------------------
+2026-02-05T09:29:18,369Z INFO [StepHelper.java:70] Bazel tool will not be run.
+2026-02-05T09:29:18,372Z INFO [StepHelper.java:62] ----------------------------------
+2026-02-05T09:29:18,372Z INFO [StepHelper.java:64] Will include the Detectors tool.
+2026-02-05T09:29:18,422Z INFO [DirectoryFinder.java:21] Searching for detectors.
+2026-02-05T09:29:18,440Z INFO [DirectoryEvaluator.java:41] Evaluating detectors. This may take a while.
+2026-02-05T09:29:19,386Z INFO [Slf4jIntLogger.java:42] Running executable >/usr/local/bin/git --version
+2026-02-05T09:29:19,425Z INFO [Slf4jIntLogger.java:42] Process return code: 0
+2026-02-05T09:29:19,429Z INFO [Slf4jIntLogger.java:42] Running executable >/usr/local/bin/git config --get remote.origin.url
+2026-02-05T09:29:19,456Z INFO [Slf4jIntLogger.java:42] Process return code: 0
+2026-02-05T09:29:19,457Z INFO [Slf4jIntLogger.java:42] Running executable >/usr/local/bin/git rev-parse --abbrev-ref HEAD
+2026-02-05T09:29:19,484Z INFO [Slf4jIntLogger.java:42] Process return code: 0
+2026-02-05T09:29:19,485Z INFO [Slf4jIntLogger.java:42] Running executable >/usr/local/bin/git rev-parse HEAD
+2026-02-05T09:29:19,512Z INFO [Slf4jIntLogger.java:42] Process return code: 0
+2026-02-05T09:29:19,536Z INFO [DetectorTool.java:169] ======================================================================================================
+2026-02-05T09:29:19,537Z INFO [DetectorTool.java:170] Detector Report
+2026-02-05T09:29:19,537Z INFO [DetectorTool.java:171] ======================================================================================================
+2026-02-05T09:29:19,537Z INFO [DetectorTool.java:176] 	/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo (depth 0)
+2026-02-05T09:29:19,537Z INFO [DetectorTool.java:178] 		NPM Package Lock: SUCCESS
+2026-02-05T09:29:19,537Z INFO [DetectorTool.java:180] 			Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package-lock.json
+2026-02-05T09:29:19,538Z INFO [DetectorTool.java:180] 			Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json
+2026-02-05T09:29:19,538Z INFO [DetectorTool.java:178] 		Git: SUCCESS
+2026-02-05T09:29:19,538Z INFO [DetectorTool.java:180] 			Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.git
+2026-02-05T09:29:19,538Z INFO [DetectorTool.java:180] 			Found executable: /usr/local/bin/git
+2026-02-05T09:29:19,539Z INFO [DetectorTool.java:204] ----------------------------------
+2026-02-05T09:29:19,545Z INFO [DiagnosticFileCapture.java:34] Saved file to diagnostics zip: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package-lock.json
+2026-02-05T09:29:19,546Z INFO [DiagnosticFileCapture.java:34] Saved file to diagnostics zip: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json
+2026-02-05T09:29:19,556Z INFO [ArbitraryNameVersionDecision.java:32] The following project names were found: 
+2026-02-05T09:29:19,556Z INFO [ArbitraryNameVersionDecision.java:33] 	NPM: owasp-nodejs-goat, 1.3.0
+2026-02-05T09:29:19,556Z INFO [ArbitraryNameVersionDecision.java:47] Chose to use NPM at depth 0 for project name and version. Override with detect.project.detector.
+2026-02-05T09:29:19,566Z INFO [StepHelper.java:67] Detectors actions finished.
+2026-02-05T09:29:19,567Z INFO [UniversalStepRunner.java:119] ----------------------------------
+2026-02-05T09:29:19,569Z INFO [UniversalStepRunner.java:126] Project name: owasp-nodejs-goat
+2026-02-05T09:29:19,570Z INFO [UniversalStepRunner.java:127] Project version: 1.3.0
+2026-02-05T09:29:22,525Z INFO [StepHelper.java:62] ----------------------------------
+2026-02-05T09:29:22,526Z INFO [StepHelper.java:70] Signature Scanner tool will not be run.
+2026-02-05T09:29:22,526Z INFO [StepHelper.java:62] ----------------------------------
+2026-02-05T09:29:22,527Z INFO [StepHelper.java:70] Vulnerability Impact Analysis tool will not be run.
+2026-02-05T09:29:22,527Z INFO [StepHelper.java:62] ----------------------------------
+2026-02-05T09:29:22,527Z INFO [StepHelper.java:70] IaC Scanner tool will not be run.
+2026-02-05T09:29:23,186Z INFO [GenerateComponentLocationAnalysisOperation.java:67] ----------------------------------
+2026-02-05T09:29:23,186Z INFO [null:-1] ##################################################################################################
+2026-02-05T09:29:23,186Z INFO [null:-1] #                                                                                                #
+2026-02-05T09:29:23,186Z INFO [null:-1] #  Product Notice                                                                                #
+2026-02-05T09:29:23,186Z INFO [null:-1] #  © 2024 Black Duck Software, Inc.                                                              #
+2026-02-05T09:29:23,186Z INFO [null:-1] #  This Black Duck Component Locator and all associated documentation are proprietary            #
+2026-02-05T09:29:23,186Z INFO [null:-1] #  to Black Duck Software, Inc. and may only be used pursuant to the terms and conditions of a   #
+2026-02-05T09:29:23,186Z INFO [null:-1] #  written license agreement with Black Duck Software, Inc. All other use, reproduction,         #
+2026-02-05T09:29:23,187Z INFO [null:-1] #  modification, or distribution of the Black Duck Component Locator or the associated           #
+2026-02-05T09:29:23,187Z INFO [null:-1] #  documentation is strictly prohibited.                                                         #
+2026-02-05T09:29:23,187Z INFO [null:-1] #                                                                                                #
+2026-02-05T09:29:23,187Z INFO [null:-1] ##################################################################################################
+2026-02-05T09:29:23,187Z INFO [null:-1] Running Component Locator v1.1.12 on /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+2026-02-05T09:29:33,094Z INFO [GenerateComponentLocationAnalysisOperation.java:74] Component Location Analysis file saved at: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_sca_package_manager_scan/detect/runs/2026-02-05-09-29-17-749/scan/components-with-locations.json
+2026-02-05T09:29:33,095Z INFO [GenerateComponentLocationAnalysisOperation.java:75] ----------------------------------
+2026-02-05T09:29:33,097Z INFO [Application.java:185] 
+2026-02-05T09:29:33,098Z INFO [Application.java:255] 
+2026-02-05T09:29:33,098Z INFO [Application.java:258] Creating status file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_sca_package_manager_scan/detect/runs/2026-02-05-09-29-17-749/status/status.json
+2026-02-05T09:29:33,109Z INFO [Application.java:276] 
+2026-02-05T09:29:33,112Z INFO [DiagnosticSystem.java:83] Finishing diagnostic mode.
+2026-02-05T09:29:33,113Z INFO [DiagnosticSystem.java:86] Finishing reports.
+2026-02-05T09:29:33,113Z INFO [DiagnosticSystem.java:93] Finishing logging.

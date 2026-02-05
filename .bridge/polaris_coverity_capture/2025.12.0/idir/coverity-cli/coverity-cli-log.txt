@@ -1,0 +1,400 @@
+[INFO] Using lightweight capture with thin client.
+[INFO] Executing command: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-internal-manage-cache check
+[DEBUG] Command duration (s): 1.143
+[INFO] Caching is enabled.
+[INFO] Telemetry is enabled
+[DEBUG] Telemetry: Using local storage provider. Telemetry will be written to '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/telemetry/coverity/019c2d22-41a7-74c2-b782-05de43a97172.jsonl'
+[INFO] Executing command: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-manage-emit --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir list-capture-diagnostics
+[DEBUG] Command duration (s): 0.026
+[DEBUG] Planning next set of capture actions...
+[DEBUG] Current global planner admin state is 'Init'
+[DEBUG] Current global planner op state is 'Working'
+[DEBUG] Next global planner admin state is 'Init'
+[DEBUG] Next global planner op state is 'Working'
+[INFO] Executing action no-op: nothing to do for initialization
+[DEBUG] Planning next set of capture actions...
+[DEBUG] Current global planner admin state is 'Init'
+[DEBUG] Current global planner op state is 'Done'
+[DEBUG] Next global planner admin state is 'ConfigureCompilers'
+[DEBUG] Next global planner op state is 'Working'
+[INFO] Executing action Delete compiler configurations for intermediate directory '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir'
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler gcc --comptype clangcc --template
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler gcc --comptype clangcc --template
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml
+Successfully generated configuration for the compilers: g++ gcc
+[DEBUG] Command duration (s): 0.499
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler cc --comptype gcc --template
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler cc --comptype gcc --template
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml
+Successfully generated configuration for the compilers: *-g++ *-gcc ar cc g++-* gcc-* ld
+[DEBUG] Command duration (s): 0.463
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler c++ --comptype g++ --template
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler c++ --comptype g++ --template
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml
+Successfully generated configuration for the compilers: c++
+[DEBUG] Command duration (s): 0.409
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler clang --comptype clangcc --template
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler clang --comptype clangcc --template
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml
+Successfully generated configuration for the compilers: clang clang++
+[DEBUG] Command duration (s): 0.400
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler java --comptype java --template
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler java --comptype java --template
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml
+Successfully generated configuration for the compilers: apt java javac javaw
+Successfully generated configuration for the buildless capture patterns: jar
+[DEBUG] Command duration (s): 0.413
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler go --comptype go --template
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler go --comptype go --template
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml
+Successfully generated configuration for the compilers: go
+[DEBUG] Command duration (s): 0.404
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler ccache --comptype prefix --template
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler ccache --comptype prefix --template
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml
+Successfully generated configuration for the compilers: ccache
+[DEBUG] Command duration (s): 0.395
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler kotlinc --comptype kotlinc --template
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml --compiler kotlinc --comptype kotlinc --template
+[WARNING] Template config template-java-config-0 already exists for java and will be reused. 
+[WARNING] Template config template-apt-config-0 already exists for apt and will be reused. 
+[WARNING] Template config template-javaw-config-0 already exists for javaw and will be reused. 
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/build-compiler-configs/coverity_config.xml
+Successfully generated configuration for the compilers: kotlin kotlinc
+Successfully generated configuration for the buildless capture patterns: android kotlin-module
+[DEBUG] Command duration (s): 0.411
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --dart
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --dart
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml
+Successfully generated configuration for the buildless capture patterns: capture-config-files dart
+[DEBUG] Command duration (s): 0.389
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --javascript
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --javascript
+[NOTE] This Coverity installation only supports record with source for "javascript". Attempts to capture source files for this language without specifying --record-with-source to cov-build will be ignored.
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml
+Successfully generated configuration for the buildless capture patterns: capture-config-files html javascript jsx typescript vue
+[DEBUG] Command duration (s): 0.401
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --php
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --php
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml
+Successfully generated configuration for the buildless capture patterns: capture-config-files php
+[DEBUG] Command duration (s): 0.398
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --python
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --python
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml
+Successfully generated configuration for the buildless capture patterns: capture-config-files python
+[DEBUG] Command duration (s): 0.394
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --ruby
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --ruby
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml
+Successfully generated configuration for the buildless capture patterns: capture-config-files ruby
+[DEBUG] Command duration (s): 0.399
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --scala
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --scala
+
+Generated coverity_config.xml at location /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml
+Successfully generated configuration for the buildless capture patterns: capture-config-files scala
+[DEBUG] Command duration (s): 0.393
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[INFO] Executing action Configure build compiler: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --comptype capture-config-files --file-regex $capture-config-files$ --template
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --comptype capture-config-files --file-regex $capture-config-files$ --template
+[WARNING] Configuration already exists for file regex $capture-config-files$
+          and it will not be updated.
+[DEBUG] Command duration (s): 0.027
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-configure exited with exit code 0
+[DEBUG] Done executing step: Configure build compiler
+[DEBUG] Planning next set of capture actions...
+[DEBUG] Current global planner admin state is 'ConfigureCompilers'
+[DEBUG] Current global planner op state is 'Done'
+[DEBUG] Next global planner admin state is 'UnconfigureCompilers'
+[DEBUG] Next global planner op state is 'Working'
+[INFO] Executing action no-op: no compilers need to be unconfigured
+[DEBUG] Planning next set of capture actions...
+[DEBUG] Current global planner admin state is 'UnconfigureCompilers'
+[DEBUG] Current global planner op state is 'Done'
+[DEBUG] Next global planner admin state is 'LoadCompilerConfigs'
+[DEBUG] Next global planner op state is 'Working'
+[INFO] Executing action no-op: compiler configurations loaded
+[DEBUG] Planning next set of capture actions...
+[DEBUG] Current global planner admin state is 'LoadCompilerConfigs'
+[DEBUG] Current global planner op state is 'Done'
+[DEBUG] Next global planner admin state is 'CaptureModules'
+[DEBUG] Next global planner op state is 'Working'
+[DEBUG] Planning next set of capture actions for project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+[DEBUG] Current project admin state is 'Init'
+[DEBUG] Current project op state is 'Working'
+[DEBUG] Next project admin state is 'Init'
+[DEBUG] Next project op state is 'Working'
+[DEBUG] Current project admin state is 'Init'
+[DEBUG] Current project op state is 'Done'
+[DEBUG] Next project admin state is 'CaptureCompiledSources'
+[DEBUG] Next project op state is 'Working'
+[DEBUG] Current project admin state is 'CaptureCompiledSources'
+[DEBUG] Current project op state is 'Done'
+[DEBUG] Next project admin state is 'CaptureNonCompiledSources'
+[DEBUG] Next project op state is 'Working'
+[DEBUG] No non-compiled source files to capture for module /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+[DEBUG] No additional capture actions needed to capture project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+[DEBUG] Planning next set of capture actions for project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+[DEBUG] Current project admin state is 'CaptureNonCompiledSources'
+[DEBUG] Current project op state is 'Done'
+[DEBUG] Next project admin state is 'CaptureConfigFiles'
+[DEBUG] Next project op state is 'Working'
+[DEBUG] No additional capture actions needed to capture project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+[DEBUG] Planning next set of capture actions for project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+[DEBUG] Current project admin state is 'CaptureConfigFiles'
+[DEBUG] Current project op state is 'Done'
+[DEBUG] Next project admin state is 'CaptureUnknownFiles'
+[DEBUG] Next project op state is 'Working'
+[DEBUG] No additional capture actions needed to capture project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+[DEBUG] Planning next set of capture actions for project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+[DEBUG] Current project admin state is 'CaptureUnknownFiles'
+[DEBUG] Current project op state is 'Done'
+[DEBUG] Next project admin state is 'Finish'
+[DEBUG] Next project op state is 'Working'
+[DEBUG] No additional capture actions needed to capture project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+[DEBUG] Planning next set of capture actions for project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json
+[DEBUG] Current project admin state is 'Init'
+[DEBUG] Current project op state is 'Working'
+[DEBUG] Next project admin state is 'Init'
+[DEBUG] Next project op state is 'Working'
+[DEBUG] Current project admin state is 'Init'
+[DEBUG] Current project op state is 'Done'
+[DEBUG] Next project admin state is 'CaptureNonCompiledSources'
+[DEBUG] Next project op state is 'Working'
+[DEBUG] No additional capture actions needed to capture project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json
+[DEBUG] Planning next set of capture actions for project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json
+[DEBUG] Current project admin state is 'CaptureNonCompiledSources'
+[DEBUG] Current project op state is 'Done'
+[DEBUG] Next project admin state is 'CaptureConfigFiles'
+[DEBUG] Next project op state is 'Working'
+[DEBUG] No additional capture actions needed to capture project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json
+[DEBUG] Planning next set of capture actions for project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json
+[DEBUG] Current project admin state is 'CaptureConfigFiles'
+[DEBUG] Current project op state is 'Done'
+[DEBUG] Next project admin state is 'CaptureUnknownFiles'
+[DEBUG] Next project op state is 'Working'
+[DEBUG] No additional capture actions needed to capture project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json
+[DEBUG] Planning next set of capture actions for project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json
+[DEBUG] Current project admin state is 'CaptureUnknownFiles'
+[DEBUG] Current project op state is 'Done'
+[DEBUG] Next project admin state is 'Finish'
+[DEBUG] Next project op state is 'Working'
+[DEBUG] No additional capture actions needed to capture project file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json
+[DEBUG] Nothing further to do to capture projects.
+[DEBUG] Current global planner admin state is 'CaptureModules'
+[DEBUG] Current global planner op state is 'Done'
+[DEBUG] Next global planner admin state is 'PostCapture'
+[DEBUG] Next global planner op state is 'Working'
+[INFO] Executing action Emit files using buildless capture: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-internal-capture-files --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --ticker-mode none --append-log --capture-list-file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/capture-file-list-2964768317 --debug --record-with-source
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-internal-capture-files --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir -c /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml --ticker-mode none --append-log --capture-list-file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/capture-file-list-2964768317 --debug --record-with-source
+[INFO] Buildless capture started.
+[DEBUG] Parsing config file at 'coverity_config.xml'.
+xml.cpp:21:parse_xml_config_file: : Trying top-level configuration file /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/coverity-cli/buildless-compiler-configs/coverity_config.xml
+[DEBUG] Registered buildless compiler config with comp_name 'cov-buildless-capture-dart-0'.
+[DEBUG] Registered buildless compiler config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] Registered buildless compiler config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] Registered buildless compiler config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] Registered buildless compiler config with comp_name 'cov-buildless-capture-typescript-0'.
+[DEBUG] Registered buildless compiler config with comp_name 'cov-buildless-capture-jsx-0'.
+[DEBUG] Registered buildless compiler config with comp_name 'cov-buildless-capture-vue-0'.
+[DEBUG] Registered buildless compiler config with comp_name 'cov-buildless-capture-php-0'.
+[DEBUG] Registered buildless compiler config with comp_name 'cov-buildless-capture-python-0'.
+[DEBUG] Registered buildless compiler config with comp_name 'cov-buildless-capture-ruby-0'.
+[DEBUG] Registered buildless compiler config with comp_name 'cov-buildless-capture-scala-0'.
+[DEBUG] Reading capture list file at 'capture-file-list-2964768317'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/allocations.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/benefits.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/contributions.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/dashboard.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/error-template.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/layout.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/login.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/memos.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/profile.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/research.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/signup.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/tutorial/a1.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/tutorial/a10.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/tutorial/a2.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/tutorial/a3.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/tutorial/a4.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/tutorial/a5.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/tutorial/a6.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/tutorial/a7.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/tutorial/a8.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/tutorial/a9.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/tutorial/layout.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/tutorial/redos.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/views/tutorial/ssrf.html' included by config with comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/tsconfig.json' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/tsconfig.json' included by config with comp_name 'cov-buildless-capture-typescript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/Gruntfile.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/server.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/assets/js/chart/chart-data-morris.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/assets/js/tour/redirects-steps.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/allocations-dao.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/benefits-dao.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/contributions-dao.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/memos-dao.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/profile-dao.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/research-dao.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/data/user-dao.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/allocations.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/benefits.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/contributions.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/error.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/index.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/memos.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/profile.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/research.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/session.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app/routes/tutorial.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/artifacts/db-reset.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/config/config.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/config/env/all.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/config/env/development.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/config/env/production.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/config/env/test.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/allocations_spec.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/benefits_spec.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/contributions_spec.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/dashboard_spec.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/general_spec.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/learn_spec.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/login_spec.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/logout_spec.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/memos_spec.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/profile_spec.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/research_spec.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/signup_spec.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/integration/tutorial_spec.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/plugins/index.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/support/commands.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/support/index.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/security/profile-test.js' included by config with comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app.json' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/cypress.json' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/nodemon.json' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package-lock.json' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/fixtures/users/admin.json' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/fixtures/users/new_user.json' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test/e2e/fixtures/users/user.json' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.travis.yml' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/docker-compose.yml' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/docker-compose_coverity.yml' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/CODE_OF_CONDUCT.md' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/CONTRIBUTING.md' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/README.md' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/Dockerfile' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.dockerignore' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.jshintignore' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.jshintrc' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/artifacts/cert/server.crt' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] File '/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/artifacts/cert/server.key' included by config with comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] Processing batch for remaining 21 out of 21 total sources for comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] Processing batch for remaining 1 out of 21 total sources for comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] Processing batch for remaining 44 out of 44 total sources for comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] Processing batch for remaining 24 out of 44 total sources for comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] Processing batch for remaining 4 out of 44 total sources for comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] Processing batch for remaining 24 out of 24 total sources for comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] Processing batch for remaining 4 out of 24 total sources for comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] Processing batch for remaining 1 out of 1 total sources for comp_name 'cov-buildless-capture-typescript-0'.
+[DEBUG] Creating cov-translate invocation for 20 sources for comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] Creating cov-translate invocation for 1 sources for comp_name 'cov-buildless-capture-capture-config-files-0'.
+[DEBUG] Creating cov-translate invocation for 20 sources for comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] Creating cov-translate invocation for 20 sources for comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] Creating cov-translate invocation for 4 sources for comp_name 'cov-buildless-capture-javascript-0'.
+[DEBUG] Creating cov-translate invocation for 20 sources for comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] Creating cov-translate invocation for 4 sources for comp_name 'cov-buildless-capture-html-0'.
+[DEBUG] Creating cov-translate invocation for 1 sources for comp_name 'cov-buildless-capture-typescript-0'.
+'/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/emit/BD-MB01868/emit-db' temp store dir =
+   '/var/folders/sh/0h3w2by574l11xgsfsnc1thc0000gn/T/cov-khp/de3059c0aaf07fd306f2da6582bd77a2'
+[DEBUG] Invoking a maximum of 16 parallel cov-translate invocations.
+[INFO] Emitting 89 Files.
+pipe_commands starting: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-translate --debug --verbose 6 --record-with-source --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir --config /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/top_config.xml cov-buildless-capture-capture-config-files-0 --coverity_resp_file=/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/cov-translate-resp-file1 
+pipe_commands starting: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-translate --debug --verbose 6 --record-with-source --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir --config /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/top_config.xml cov-buildless-capture-capture-config-files-0 --coverity_resp_file=/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/cov-translate-resp-file2 
+pipe_commands starting: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-translate --debug --verbose 6 --record-with-source --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir --config /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/top_config.xml cov-buildless-capture-javascript-0 --coverity_resp_file=/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/cov-translate-resp-file3 
+pipe_commands starting: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-translate --debug --verbose 6 --record-with-source --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir --config /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/top_config.xml cov-buildless-capture-javascript-0 --coverity_resp_file=/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/cov-translate-resp-file4 
+pipe_commands starting: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-translate --debug --verbose 6 --record-with-source --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir --config /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/top_config.xml cov-buildless-capture-javascript-0 --coverity_resp_file=/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/cov-translate-resp-file5 
+pipe_commands starting: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-translate --debug --verbose 6 --record-with-source --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir --config /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/top_config.xml cov-buildless-capture-html-0 --coverity_resp_file=/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/cov-translate-resp-file6 
+pipe_commands starting: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-translate --debug --verbose 6 --record-with-source --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir --config /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/top_config.xml cov-buildless-capture-html-0 --coverity_resp_file=/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/cov-translate-resp-file7 
+pipe_commands starting: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-translate --debug --verbose 6 --record-with-source --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir --config /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/top_config.xml cov-buildless-capture-typescript-0 --coverity_resp_file=/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir/tmp/cicf-de3059c0aaf07fd306f2da6582bd77a2/cov-translate-resp-file8 
+[DEBUG] Updating build invocation with id 1.
+[DEBUG] Emitted 44 files. Failed to emit 0 files.
+[INFO] Buildless capture completed.
+[DEBUG] Command duration (s): 1.072
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-internal-capture-files exited with exit code 0
+[DEBUG] Done executing step: Emit files using buildless capture
+[INFO] Executing action No unwanted TUs to delete
+[INFO] Executing action Delete stale TUs /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir
+[INFO] Executing command: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-manage-emit --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir list-capture-diagnostics
+[DEBUG] Command duration (s): 0.041
+[INFO] Executing action Invalidate capture results
+[INFO] Executing action Invoke cov-run-sigma: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-run-sigma --project-dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir --coverity-config /var/folders/sh/0h3w2by574l11xgsfsnc1thc0000gn/T/cov-run-sigma-config-4210834344/coverity.yaml --sigma-binary-path /Users/khp/.blackduck/bridge/tools/sigma/2026.1.0/sigma --enable-telemetry
+[DEBUG] Executing command /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-run-sigma --project-dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir --coverity-config /var/folders/sh/0h3w2by574l11xgsfsnc1thc0000gn/T/cov-run-sigma-config-4210834344/coverity.yaml --sigma-binary-path /Users/khp/.blackduck/bridge/tools/sigma/2026.1.0/sigma --enable-telemetry
+cov-run-sigma version 2025.12.0 on Darwin 24.6.0 x86_64
+Internal version numbers: 8600bcfa3c p-2025.12-push-40
+
+[DEBUG] Command duration (s): 2.041
+[DEBUG] /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-run-sigma exited with exit code 0
+[DEBUG] Done executing step: Invoke cov-run-sigma
+[INFO] Executing command: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/cov-manage-emit --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir list-capture-diagnostics
+[DEBUG] Command duration (s): 0.035
+[DEBUG] Planning next set of capture actions...
+[DEBUG] Current global planner admin state is 'PostCapture'
+[DEBUG] Current global planner op state is 'Done'
+[DEBUG] Next global planner admin state is 'Finish'
+[DEBUG] Next global planner op state is 'Working'
+[DEBUG] Nothing to do.
+Capture summary:
+    SUCCEEDED: 97
+    INCOMPLETE: 0
+    FAILED: 0
+    IGNORED: 3
+    FILES CAPTURED: 97
+    LINES OF CODE: 33209
+[INFO] Capture phase took 9.314s.
+[DEBUG] Zip archive file created /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/idir.zip
+[INFO] To analyze your project, type '/Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/coverity analyze --project-dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo --dir /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_coverity_capture/2025.12.0/idir -o analyze.location=connect'.

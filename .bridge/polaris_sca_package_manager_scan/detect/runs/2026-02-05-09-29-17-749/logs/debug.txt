@@ -1,0 +1,119 @@
+2026-02-05T09:29:18,042Z INFO [DiagnosticLogger.java:33] Redirected to file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_sca_package_manager_scan/detect/runs/2026-02-05-09-29-17-749/logs/debug.txt
+2026-02-05T09:29:18,043Z INFO [DiagnosticLogger.java:33] Redirected to file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_sca_package_manager_scan/detect/runs/2026-02-05-09-29-17-749/logs/info.txt
+2026-02-05T09:29:18,043Z INFO [DiagnosticLogSystem.java:46] Attempting to restrict console to debug level (additional levels written to files).
+2026-02-05T09:29:18,044Z INFO [DiagnosticLogSystem.java:49] Adding additional log listeners to extractions.
+2026-02-05T09:29:18,044Z INFO [DiagnosticLogSystem.java:54] Diagnostics is now in control of logging!
+2026-02-05T09:29:18,046Z INFO [DiagnosticSystem.java:69] Creating configuration diagnostics reports.
+2026-02-05T09:29:18,047Z INFO [DiagnosticSystem.java:73] Diagnostics system is ready.
+2026-02-05T09:29:18,048Z DEBUG [DetectBoot.java:183] Main boot completed. Deciding what Detect should do.
+2026-02-05T09:29:18,048Z INFO [DetectBoot.java:189] 
+2026-02-05T09:29:18,277Z WARN [DetectBoot.java:219] Correlated Scanning is not available for Rapid/Stateless scan mode or offline scanning. A correlation ID will not be set.
+2026-02-05T09:29:18,280Z DEBUG [ProductDecider.java:36] Black Duck will run: Black Duck offline mode was set to true.
+2026-02-05T09:29:18,284Z DEBUG [DetectBoot.java:239] Decided what products will be run. Starting product boot.
+2026-02-05T09:29:18,291Z DEBUG [ProductBoot.java:63] Detect product boot start.
+2026-02-05T09:29:18,292Z DEBUG [ProductBoot.java:78] Detect product boot completed.
+2026-02-05T09:29:18,294Z DEBUG [Application.java:227] Detect boot completed.
+2026-02-05T09:29:18,294Z DEBUG [Application.java:243] Detect will attempt to run.
+2026-02-05T09:29:18,304Z DEBUG [AirGapPathFinder.java:57] Guessed Detect jar location as /Users/khp/.blackduck/bridge/tools/blackduck-detect/10.4.0/detect-10.4.0.jar
+2026-02-05T09:29:18,305Z DEBUG [AirGapPathFinder.java:24] Checking for jar file: /Users/khp/.blackduck/bridge/tools/blackduck-detect/10.4.0/detect-10.4.0.jar
+2026-02-05T09:29:18,305Z DEBUG [AirGapPathFinder.java:26] Found detect jar file.
+2026-02-05T09:29:18,367Z INFO [StepHelper.java:62] ----------------------------------
+2026-02-05T09:29:18,367Z INFO [StepHelper.java:70] Docker tool will not be run.
+2026-02-05T09:29:18,368Z INFO [StepHelper.java:62] ----------------------------------
+2026-02-05T09:29:18,369Z INFO [StepHelper.java:70] Bazel tool will not be run.
+2026-02-05T09:29:18,372Z INFO [StepHelper.java:62] ----------------------------------
+2026-02-05T09:29:18,372Z INFO [StepHelper.java:64] Will include the Detectors tool.
+2026-02-05T09:29:18,422Z DEBUG [DetectorTool.java:94] Starting detector file system traversal.
+2026-02-05T09:29:18,422Z INFO [DirectoryFinder.java:21] Searching for detectors.
+2026-02-05T09:29:18,436Z DEBUG [DirectoryFinder.java:61] filteredSubDirectories: [/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/Gruntfile.js, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/CODE_OF_CONDUCT.md, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/artifacts, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/nodemon.json, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/cypress.json, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/docker-compose_coverity.yml, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/LICENSE, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/test, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/app.json, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/config, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.jshintignore, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/server.js, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/Dockerfile, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.jshintrc, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/README.md, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.dockerignore, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.gitignore, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package-lock.json, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/CONTRIBUTING.md, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.github, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/docker-compose.yml, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/Procfile, /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.travis.yml]
+2026-02-05T09:29:18,440Z INFO [DirectoryEvaluator.java:41] Evaluating detectors. This may take a while.
+2026-02-05T09:29:18,440Z DEBUG [DirectoryEvaluator.java:51] Determining applicable detectors on the directory: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+2026-02-05T09:29:18,584Z DEBUG [DetectableEvaluator.java:31] Attempting NpmPackageLockDetectable
+2026-02-05T09:29:18,714Z DEBUG [NpmLockfileGraphTransformer.java:33] Processing project.
+2026-02-05T09:29:18,714Z DEBUG [NpmLockfileGraphTransformer.java:35] Found 658 packages in the lockfile.
+2026-02-05T09:29:19,333Z DEBUG [NpmLockfileGraphTransformer.java:60] Found 36 root dependencies.
+2026-02-05T09:29:19,335Z DEBUG [DirectoryEvaluator.java:101] Detector Type NPM Entry Point NPM Package Lock applied and was attempted
+2026-02-05T09:29:19,336Z DEBUG [DirectoryEvaluator.java:109] Detector results ("true" = succeeded): [NPM Package Lock: true]
+2026-02-05T09:29:19,366Z DEBUG [DetectableEvaluator.java:31] Attempting GitCliDetectable
+2026-02-05T09:29:19,386Z INFO [Slf4jIntLogger.java:42] Running executable >/usr/local/bin/git --version
+2026-02-05T09:29:19,424Z DEBUG [ExecutableStreamThread.java:41] git version 2.52.0
+2026-02-05T09:29:19,425Z INFO [Slf4jIntLogger.java:42] Process return code: 0
+2026-02-05T09:29:19,429Z INFO [Slf4jIntLogger.java:42] Running executable >/usr/local/bin/git config --get remote.origin.url
+2026-02-05T09:29:19,456Z INFO [Slf4jIntLogger.java:42] Process return code: 0
+2026-02-05T09:29:19,457Z INFO [Slf4jIntLogger.java:42] Running executable >/usr/local/bin/git rev-parse --abbrev-ref HEAD
+2026-02-05T09:29:19,483Z DEBUG [ExecutableStreamThread.java:41] master
+2026-02-05T09:29:19,484Z INFO [Slf4jIntLogger.java:42] Process return code: 0
+2026-02-05T09:29:19,485Z INFO [Slf4jIntLogger.java:42] Running executable >/usr/local/bin/git rev-parse HEAD
+2026-02-05T09:29:19,511Z DEBUG [ExecutableStreamThread.java:41] 69bddc8a23d5291aaad8616112821edd8dc2e2e5
+2026-02-05T09:29:19,512Z INFO [Slf4jIntLogger.java:42] Process return code: 0
+2026-02-05T09:29:19,513Z DEBUG [DirectoryEvaluator.java:101] Detector Type GIT Entry Point Git applied and was attempted
+2026-02-05T09:29:19,513Z DEBUG [DirectoryEvaluator.java:109] Detector results ("true" = succeeded): [Git: true]
+2026-02-05T09:29:19,530Z DEBUG [DirectoryEvaluator.java:80] Found (2) applicable detectors in: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+2026-02-05T09:29:19,530Z DEBUG [DetectorTool.java:107] Finished detectors.
+2026-02-05T09:29:19,536Z INFO [DetectorTool.java:169] ======================================================================================================
+2026-02-05T09:29:19,537Z INFO [DetectorTool.java:170] Detector Report
+2026-02-05T09:29:19,537Z INFO [DetectorTool.java:171] ======================================================================================================
+2026-02-05T09:29:19,537Z INFO [DetectorTool.java:176] 	/Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo (depth 0)
+2026-02-05T09:29:19,537Z INFO [DetectorTool.java:178] 		NPM Package Lock: SUCCESS
+2026-02-05T09:29:19,537Z INFO [DetectorTool.java:180] 			Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package-lock.json
+2026-02-05T09:29:19,538Z INFO [DetectorTool.java:180] 			Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json
+2026-02-05T09:29:19,538Z INFO [DetectorTool.java:178] 		Git: SUCCESS
+2026-02-05T09:29:19,538Z INFO [DetectorTool.java:180] 			Found file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.git
+2026-02-05T09:29:19,538Z INFO [DetectorTool.java:180] 			Found executable: /usr/local/bin/git
+2026-02-05T09:29:19,539Z INFO [DetectorTool.java:204] ----------------------------------
+2026-02-05T09:29:19,541Z DEBUG [DetectorTool.java:255] Publishing file events.
+2026-02-05T09:29:19,545Z INFO [DiagnosticFileCapture.java:34] Saved file to diagnostics zip: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package-lock.json
+2026-02-05T09:29:19,546Z INFO [DiagnosticFileCapture.java:34] Saved file to diagnostics zip: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/package.json
+2026-02-05T09:29:19,552Z DEBUG [DetectorEvaluationNameVersionDecider.java:59] A valid preferred detector type was not provided, deciding project name automatically.
+2026-02-05T09:29:19,556Z INFO [ArbitraryNameVersionDecision.java:32] The following project names were found: 
+2026-02-05T09:29:19,556Z INFO [ArbitraryNameVersionDecision.java:33] 	NPM: owasp-nodejs-goat, 1.3.0
+2026-02-05T09:29:19,556Z INFO [ArbitraryNameVersionDecision.java:47] Chose to use NPM at depth 0 for project name and version. Override with detect.project.detector.
+2026-02-05T09:29:19,556Z DEBUG [DetectorTool.java:152] Finished evaluating detectors for project info.
+2026-02-05T09:29:19,558Z DEBUG [DetectorTool.java:115] Finished running detectors.
+2026-02-05T09:29:19,558Z DEBUG [DebugLogReportWriter.java:19] 
+2026-02-05T09:29:19,558Z DEBUG [DebugLogReportWriter.java:19] ======================================================================================================
+2026-02-05T09:29:19,558Z DEBUG [DebugLogReportWriter.java:19] Search results
+2026-02-05T09:29:19,558Z DEBUG [DebugLogReportWriter.java:19] ======================================================================================================
+2026-02-05T09:29:19,559Z DEBUG [DebugLogReportWriter.java:19] /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+2026-02-05T09:29:19,559Z DEBUG [DebugLogReportWriter.java:19] 	FOUND: GIT, NPM
+2026-02-05T09:29:19,560Z DEBUG [DebugLogReportWriter.java:19] ======================================================================================================
+2026-02-05T09:29:19,560Z DEBUG [DebugLogReportWriter.java:19] 
+2026-02-05T09:29:19,566Z INFO [StepHelper.java:67] Detectors actions finished.
+2026-02-05T09:29:19,567Z INFO [UniversalStepRunner.java:119] ----------------------------------
+2026-02-05T09:29:19,567Z DEBUG [UniversalStepRunner.java:120] Completed code location tools.
+2026-02-05T09:29:19,567Z DEBUG [UniversalStepRunner.java:122] Determining project info.
+2026-02-05T09:29:19,569Z DEBUG [ProjectNameVersionDecider.java:59] Using the first ordered tool with project info: DETECTOR
+2026-02-05T09:29:19,569Z INFO [UniversalStepRunner.java:126] Project name: owasp-nodejs-goat
+2026-02-05T09:29:19,570Z INFO [UniversalStepRunner.java:127] Project version: 1.3.0
+2026-02-05T09:29:19,570Z DEBUG [DetectRun.java:93] Integrated Matching Correlation ID: null
+2026-02-05T09:29:22,518Z DEBUG [CreateAggregateBdio2FileOperation.java:67] BDIO Generated: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_sca_package_manager_scan/detect/bdio/blackduck_artifact/scan.bdio
+2026-02-05T09:29:22,525Z INFO [StepHelper.java:62] ----------------------------------
+2026-02-05T09:29:22,526Z INFO [StepHelper.java:70] Signature Scanner tool will not be run.
+2026-02-05T09:29:22,526Z INFO [StepHelper.java:62] ----------------------------------
+2026-02-05T09:29:22,527Z INFO [StepHelper.java:70] Vulnerability Impact Analysis tool will not be run.
+2026-02-05T09:29:22,527Z INFO [StepHelper.java:62] ----------------------------------
+2026-02-05T09:29:22,527Z INFO [StepHelper.java:70] IaC Scanner tool will not be run.
+2026-02-05T09:29:23,185Z DEBUG [GenerateComponentLocationAnalysisOperation.java:120] Component Location Analysis input file written to /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_sca_package_manager_scan/detect/runs/2026-02-05-09-29-17-749/scan/components-source.json
+2026-02-05T09:29:23,186Z INFO [GenerateComponentLocationAnalysisOperation.java:67] ----------------------------------
+2026-02-05T09:29:23,186Z INFO [null:-1] ##################################################################################################
+2026-02-05T09:29:23,186Z INFO [null:-1] #                                                                                                #
+2026-02-05T09:29:23,186Z INFO [null:-1] #  Product Notice                                                                                #
+2026-02-05T09:29:23,186Z INFO [null:-1] #  © 2024 Black Duck Software, Inc.                                                              #
+2026-02-05T09:29:23,186Z INFO [null:-1] #  This Black Duck Component Locator and all associated documentation are proprietary            #
+2026-02-05T09:29:23,186Z INFO [null:-1] #  to Black Duck Software, Inc. and may only be used pursuant to the terms and conditions of a   #
+2026-02-05T09:29:23,186Z INFO [null:-1] #  written license agreement with Black Duck Software, Inc. All other use, reproduction,         #
+2026-02-05T09:29:23,187Z INFO [null:-1] #  modification, or distribution of the Black Duck Component Locator or the associated           #
+2026-02-05T09:29:23,187Z INFO [null:-1] #  documentation is strictly prohibited.                                                         #
+2026-02-05T09:29:23,187Z INFO [null:-1] #                                                                                                #
+2026-02-05T09:29:23,187Z INFO [null:-1] ##################################################################################################
+2026-02-05T09:29:23,187Z INFO [null:-1] Running Component Locator v1.1.12 on /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo
+2026-02-05T09:29:33,094Z INFO [GenerateComponentLocationAnalysisOperation.java:74] Component Location Analysis file saved at: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_sca_package_manager_scan/detect/runs/2026-02-05-09-29-17-749/scan/components-with-locations.json
+2026-02-05T09:29:33,095Z INFO [GenerateComponentLocationAnalysisOperation.java:75] ----------------------------------
+2026-02-05T09:29:33,097Z INFO [Application.java:185] 
+2026-02-05T09:29:33,098Z INFO [Application.java:255] 
+2026-02-05T09:29:33,098Z INFO [Application.java:258] Creating status file: /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_sca_package_manager_scan/detect/runs/2026-02-05-09-29-17-749/status/status.json
+2026-02-05T09:29:33,109Z INFO [Application.java:276] 
+2026-02-05T09:29:33,110Z DEBUG [Application.java:295] Detect shutdown begin.
+2026-02-05T09:29:33,112Z INFO [DiagnosticSystem.java:83] Finishing diagnostic mode.
+2026-02-05T09:29:33,113Z INFO [DiagnosticSystem.java:86] Finishing reports.
+2026-02-05T09:29:33,113Z INFO [DiagnosticSystem.java:93] Finishing logging.

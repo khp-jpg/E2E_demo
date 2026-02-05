@@ -1,0 +1,33 @@
+------------------------------------------------------------------------------------------------------
+
+Report: Detect Configuration Report
+Run id: 2026-02-05-09-29-17-749
+A complete set of all parameters detect used, including detect run and version.
+
+------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
+Detect Info
+------------------------------------------------------------------------------------------------------
+Detect Version: 10.4.0
+Operating System: MAC
+------------------------------------------------------------------------------------------------------
+Detect Configuration
+------------------------------------------------------------------------------------------------------
+
+Current property values:
+--property = value [notes]
+------------------------------------------------------------
+blackduck.offline.mode = true [cmd] 
+blackduck.offline.mode.force.bdio = true [cmd] 
+detect.bdio.file.name = scan [cmd] 
+detect.bdio.output.path = /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_sca_package_manager_scan/detect/bdio/blackduck_artifact [cmd] 
+detect.cleanup = false [cmd] 
+detect.component.location.analysis.enabled = true [cmd] 
+detect.diagnostic = true [cmd] 
+detect.excluded.directories = /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge [env] 
+detect.output.path = /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_sca_package_manager_scan/detect [cmd] 
+detect.source.path = /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo [cmd] 
+detect.tools = DETECTOR [cmd] 
+------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------

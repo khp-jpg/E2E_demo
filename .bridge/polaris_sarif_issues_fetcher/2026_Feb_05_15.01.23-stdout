@@ -1,0 +1,4 @@
+/Users/khp/bridge-cli-bundle/bridge-cli-bundle-macosx/adapters/polaris-sarif-issues-fetcher/versions/0.1.140/polaris-sarif-issues-fetcher /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_sarif_issues_fetcher/data.json
+{"level":"debug","logger":"Polaris SARIF Issues Fetcher","msg":"\"polaris.reports.sarif.issue.types\" is configured to [\"SAST\" \"SCA\"], will fetch issue data for those issue types","time":"2026-02-05 15:01:23.7937 IST"}
+{"level":"info","logger":"Polaris SARIF Issues Fetcher","msg":"Fetching issues from Polaris Server...","time":"2026-02-05 15:01:23.7954 IST"}
+{"level":"debug","logger":"Polaris SARIF Issues Fetcher","msg":"SCA concurrency limit: 1, SAST concurrency limit: 1","time":"2026-02-05 15:01:26.2792 IST"}

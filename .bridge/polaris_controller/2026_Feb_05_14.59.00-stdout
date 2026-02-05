@@ -1,0 +1,22 @@
+/Users/khp/bridge-cli-bundle/bridge-cli-bundle-macosx/adapters/polaris-controller/versions/0.2.247/polaris-controller /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_controller/data.json
+{"level":"info","logger":"Polaris Controller","msg":"Running for \"sast\" assessment with scan type \"sastFull\"","time":"2026-02-05 14:59:00.6613 IST"}
+{"level":"debug","logger":"Polaris Controller","msg":"Found tool cov_thin_client version from toolIDs: 2025.12.0","time":"2026-02-05 14:59:00.6620 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"checking \"coverity\" tool installation inside bridge home directory: /Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0","time":"2026-02-05 14:59:00.6620 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"Checking tool version for \"cov_thin_client\" in \"/Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0\"","time":"2026-02-05 14:59:00.6621 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"Running command:/Users/khp/.blackduck/bridge/tools/cov-thin-client/2025.12.0/bin/coverity --version","time":"2026-02-05 14:59:00.6621 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"Got tool version for \"cov_thin_client\": 2025.12.0","time":"2026-02-05 14:59:00.7523 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"\"coverity\" tool is already installed...","time":"2026-02-05 14:59:01.7925 IST"}
+{"level":"debug","logger":"Polaris Controller","msg":"Found tool sigma version from toolIDs: 2026.1.0","time":"2026-02-05 14:59:01.7926 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"checking \"Sigma\" tool installation inside bridge home directory: /Users/khp/.blackduck/bridge/tools/sigma/2026.1.0","time":"2026-02-05 14:59:01.7927 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"Checking tool version for \"sigma\" in \"/Users/khp/.blackduck/bridge/tools/sigma/2026.1.0\"","time":"2026-02-05 14:59:01.7927 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"Running command:/Users/khp/.blackduck/bridge/tools/sigma/2026.1.0/sigma --version","time":"2026-02-05 14:59:01.7928 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"Got tool version for \"sigma\": 2026.1.0","time":"2026-02-05 14:59:01.8606 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"\"Sigma\" tool is already installed...","time":"2026-02-05 14:59:02.8834 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"Running for \"sca\" assessment with scan type \"scaPackage\"","time":"2026-02-05 14:59:02.8835 IST"}
+{"level":"debug","logger":"Polaris Controller","msg":"Found tool detect version from toolIDs: 10.4.0","time":"2026-02-05 14:59:02.8835 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"checking \"detect\" tool installation inside bridge home directory: /Users/khp/.blackduck/bridge/tools/blackduck-detect/10.4.0","time":"2026-02-05 14:59:02.8835 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"Running command:/usr/bin/java -version","time":"2026-02-05 14:59:02.8851 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"Checking tool version for \"detect\" in \"/Users/khp/.blackduck/bridge/tools/blackduck-detect/10.4.0\"","time":"2026-02-05 14:59:03.0056 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"Got tool version for \"detect\": 10.4.0","time":"2026-02-05 14:59:03.0099 IST"}
+{"level":"info","logger":"Polaris Controller","msg":"\"detect\" tool is already installed...","time":"2026-02-05 14:59:04.0111 IST"}
+{"level":"debug","logger":"Polaris Controller","msg":"Queuing Artifacts Uploader Stage","time":"2026-02-05 14:59:04.0112 IST"}

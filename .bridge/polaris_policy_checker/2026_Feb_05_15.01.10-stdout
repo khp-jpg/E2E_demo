@@ -1,0 +1,5 @@
+/Users/khp/bridge-cli-bundle/bridge-cli-bundle-macosx/adapters/polaris-policy-checker/versions/0.2.83/polaris-policy-checker /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_policy_checker/data.json
+{"level":"info","logger":"Polaris Policy Checker","msg":"Checking for policy violations for \"SAST(sastFull)\" assessment...","time":"2026-02-05 15:01:10.3515 IST"}
+{"level":"info","logger":"Polaris Policy Checker","msg":"Checking for policy violations for \"SCA(scaPackage)\" assessment...","time":"2026-02-05 15:01:10.3527 IST"}
+{"level":"info","logger":"Polaris Policy Checker","msg":"The following issue policies are violated to break the build for \"SAST(sastFull)\" assessment \"E2E_demo_testing\"","time":"2026-02-05 15:01:22.4902 IST"}
+{"level":"info","logger":"Polaris Policy Checker","msg":"The following issue policies are violated to break the build for \"SCA(scaPackage)\" assessment \"E2E_demo_testing\"","time":"2026-02-05 15:01:22.4903 IST"}

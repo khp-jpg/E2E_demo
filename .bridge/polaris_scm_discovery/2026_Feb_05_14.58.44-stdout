@@ -1,0 +1,2 @@
+/Users/khp/bridge-cli-bundle/bridge-cli-bundle-macosx/adapters/scm-discovery/versions/0.2.131/scm-discovery /Users/khp/Documents/E2E_Demo_githubAction/Runners/actions-runner/_work/E2E_demo/E2E_demo/.bridge/polaris_scm_discovery/data.json
+{"level":"debug","logger":"SCM Discovery","msg":"The workflow is not triggered by GitHub pull request, couldn't find pull request number","time":"2026-02-05 14:58:44.1008 IST"}
